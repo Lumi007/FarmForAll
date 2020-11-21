@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FarmForAll | Registration Page</title>
+    <link rel="stylesheet" href="./FarmForAll.css">
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+</head>
+<body>
+    <nav class="FarmForAll-Navbar">
+        <div class="FarmForAll-Navbar-Wrapper">
+            <div class="FarmForAll-Logo">
+                <h1>FoodForAll</h1>
+            </div>
+            <div class="navbar-link">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./RegistrationPage.html">Register</a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </nav>
+    <form  action="#" method="POST" class="register-form">
+        <div class="signup-page-cont">
+            <div class="signup-page-wrapper">
+                <div>
+                    <label for="fullname">Full Name: </label>
+                    <input type="text" name="fullname" placeholder="Surname First" required/>
+                    <br/>
+                </div>
+                <div>
+                    <label for="phonenumber">Mobile Number: </label>
+                    <input type="number" name= "phonenumber" placeholder="Mobile Number" required/>
+                    <br/>
+                </div>
+                <div>
+                    <label for="emailaddress">Email Address: </label>
+                    <input type="email" name= "emailaddress" placeholder="Email Address" required />
+                    <br/>
+                </div>
+                <div>
+                    <label for="Designation">Designation</label>
+                    <select id="Designation" name="Designation">
+                      <option value="job-seeker">Buyer</option>
+                      <option value="business-owner">Seller</option>
+                      <option value="business-owner">Seller</option>
+                      <option value="business-owner">Seller</option>
+                    </select>  
+                    <br/>
+                </div>
+                <div>
+                    <label for="country">Country of Residence: </label>
+                    <input type="" name="country" placeholder="Country of Residence"/>
+                    <br/>
+                </div>
+                <div>
+                    <label for="password">Password: </label>
+                    <input type="password" name="password" placeholder="Password" required/>
+                    <br/>
+                </div>
+                <div>
+                    <label for="Description">Tell us about you/business: </label>
+                    <input type="text" name="Bio" maxlength=500 placeholder="Max 500 characters" required/>
+                    <br/>
+                </div>
+                <div>
+                    <input type="checkbox" checked="checked" required><a href = "#">I have read and agree to the terms and conditions</a>
+                </div>
+                <div class="buttons-cont">	
+                    <br/>
+                    <button type="submit">Create</button>
+                    <button>Cancel</button>
+                </div>
+                <div class="option-signup">
+                    <p class="message">Already registered? <a href="#">Sign In</a>
+                    </p>
+                </div>	
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -27,17 +27,17 @@ li {
     list-style: None;
     display: inline;
 }
-.FarmForAll-Navbar {
+.FoodForAll-Navbar {
     background-color: white;
 }
-.FarmForAll-Navbar-Wrapper {
+.FoodForAll-Navbar-Wrapper {
     padding: 10px 30px;
 }
-.FarmForAll-Logo {
+.FoodForAll-Logo {
     display: inline;
     color: var(--primaryColor);
 }
-.FarmForAll-Logo h1 {
+.FoodForAll-Logo h1 {
     display: inline;
 }
 .navbar-link {
@@ -52,38 +52,38 @@ li {
 .clearfix {
     clear: both;
 }
-.FarmForAll-header {
+.FoodForAll-header {
     margin: 20px auto;
     position: relative;
 }
-.FarmForAll-header img:hover {
+.FoodForAll-header img:hover {
     border: 2px solid var(--primaryColor);
     transition: all 0.5s ease-in-out;
 }
-.FarmForAll-header img {
+.FoodForAll-header img {
     width: 100%;
     height: 500px;
     display: block;
 }
-.FarmForAll-headertext {
+.FoodForAll-headertext {
     display: inline;
     position: absolute;
     top: 200px;
     left: 50px;
 }
-.FarmForAll-headertext:hover {
+.FoodForAll-headertext:hover {
     color: rgb(4, 28, 37);
     transition: all 1s ease-in-out;
 }
-.FarmForAll-headertext h1 {
+.FoodForAll-headertext h1 {
     font-size: 3em;
     font-weight: bolder;
 }
-.FarmForAll-headertext .FarmForAll-headertext-one {
+.FoodForAll-headertext .FoodForAll-headertext-one {
     font-weight: bold;
     font-size: 1.3em;
 }
-.FarmForAll-headertext .FarmForAll-headertext-two  {
+.FoodForAll-headertext .FoodForAll-headertext-two  {
     font-style: italic;
 }
 
